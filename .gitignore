@@ -1,0 +1,3 @@
+# directories that should be excluded.
+node_modules
+dist

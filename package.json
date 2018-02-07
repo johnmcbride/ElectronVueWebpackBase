@@ -1,0 +1,40 @@
+{
+  "name": "xenstudio",
+  "version": "0.0.1",
+  "main": "./dist/xenstudio-main.js",
+  "author": "John McBride",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/babel-core": "^6.25.3",
+    "@types/clean-webpack-plugin": "^0.1.0",
+    "@types/electron": "^1.6.10",
+    "@types/html-webpack-plugin": "^2.30.1",
+    "@types/node": "^9.3.0",
+    "@types/vue": "^2.0.0",
+    "@types/webpack": "^3.8.4",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015-node": "^6.1.1",
+    "clean-webpack-plugin": "^0.1.18",
+    "css-loader": "^0.28.9",
+    "devtron": "^1.4.0",
+    "electron-debug": "^1.5.0",
+    "electron-devtools-installer": "^2.2.3",
+    "html-webpack-plugin": "^2.30.1",
+    "ts-loader": "^3.3.1",
+    "typescript": "^2.6.2",
+    "vue": "^2.5.13",
+    "vue-loader": "^13.7.0",
+    "vue-template-compiler": "^2.5.13",
+    "vue-ts-loader": "^0.0.3",
+    "webpack": "^3.10.0"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "electron ./dist/xenstudio-main.js"
+  },
+  "dependencies": {
+    "electron": "^1.7.11",
+    "vue-json-tree-view": "^2.1.3"
+  }
+}
