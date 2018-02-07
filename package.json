@@ -1,7 +1,7 @@
 {
-  "name": "xenstudio",
+  "name": "[enter your project name]",
   "version": "0.0.1",
-  "main": "./dist/xenstudio-main.js",
+  "main": "[enter your main js file]",
   "author": "John McBride",
   "license": "MIT",
   "devDependencies": {
